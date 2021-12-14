@@ -4,11 +4,14 @@
 [hub]
         protocol = https
 [alias]
-        co = checkout
+	co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+	br = branch
+	ci = commit
+	st = status
 [color]
         diff = auto
         status = auto

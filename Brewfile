@@ -23,11 +23,9 @@ cask 'docker'
 cask 'google-chrome'
 cask 'firefox'
 cask 'kap'
-cask 'libreoffice'
 cask 'slack'
-cask 'drawio'
 cask '1password'
-
+cask 'visual-studio-code'
 
 # Unix tools
 brew 'coreutils'           # GNU file, shell and text utilities
@@ -42,6 +40,7 @@ brew 'tmux'
 brew 'sqlite'
 brew 'python'
 brew 'git'
+brew 'gh'
 brew 'neovim'
 brew 'zsh'
 brew 'htop'
@@ -49,6 +48,10 @@ brew 'fd'
 brew 'ansible'
 brew 'jq'                        # format JSON
 brew 'imagemagick'
+brew 'shellcheck'
+brew 'node'
+brew 'openssl'
+
 
 
 # postgres / postgis dependencies
